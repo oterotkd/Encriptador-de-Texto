@@ -1,0 +1,137 @@
+
+*{
+   
+    color:aliceblue;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+
+nav{
+    padding: 5px;
+    background-color: aliceblue;
+    padding: 20px;
+    display:flex; 
+    align-items: center;  
+ }
+h1{
+    font-size:5vh;
+    color:rgb(2, 3, 68);
+}
+a{   
+   color: aliceblue;
+   background-color:rgb(2, 3, 68);
+   text-align: justify;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+main{
+   padding: 10px;
+   display: flex;
+   margin-bottom: 50px;
+   margin-left: 20px;
+}
+.divider{
+    
+    border:3px solid rgb(2,3,68);
+    margin: 10px;
+}
+textarea{
+    margin-top: 90px;
+    margin-left: 20px;
+    border: none;
+    text-transform: lowercase;
+   background-color: rgb(61, 62, 63);
+}
+::placeholder{color: azure;}
+.text-area:focus{
+    outline: none;
+}
+.text-area, .mensaje{
+    background-image: url("logos/Alura-3.jpg");
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el área */
+    color: rgba(250, 241, 241, 0.9); /* Color blanco con opacidad del 50% */
+    background-color:rgb(12, 13, 49); 
+}
+section img{
+    width:100%;
+    height: auto;
+    margin: 50px;
+    align-content: center;
+}
+.btn-encriptar{
+    padding: 10px;
+    background-color:rgb(2, 3, 68);
+    border-radius: 15px;
+    border: 3px solid white;
+    color:white;
+    margin-right:30px;
+}
+.btn-encriptar:hover{
+    background-color:white;
+    color:rgb(2, 3, 68);
+    border:2px solid rgb(2, 3, 68);
+}
+.btn-desencriptar{
+    padding:10px;
+    background-color:white ;
+    color:rgb(2, 3, 68);
+    border-radius: 15px;
+    border:2px solid rgb(2, 3, 68);
+}
+.btn-desencriptar:hover{
+    background-color: rgb(2, 3, 68);
+    color: white;
+    border: 2px solid white;
+}
+.copiar{    
+    border: 1px solid  white;
+    color: rgb(2, 3, 68);
+    border-radius: 10px;
+    
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(12, 13, 49);
+    color: white;
+    padding: 20px;
+    gap: 20px; /* Espacio entre la imagen y el contenido */
+}
+
+footer img {
+    max-width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content p {
+    margin: 0 0 10px 0; /* Ajusta el margen inferior del texto */
+}
+
+.icons {
+    display: flex;
+    gap: 15px; /* Espacio entre los íconos */
+}
+i {
+    color: #ddd; /* Color cuando el ícono es hover */    
+}
+i:hover{
+    color:rgb(12, 13, 49);
+    background-color:white;
+  
+}
